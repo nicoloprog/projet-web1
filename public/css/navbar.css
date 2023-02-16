@@ -1,0 +1,89 @@
+.entete-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.entete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #252525;
+  padding: 16px;
+  padding-left: clamp(36px, calc(2.25rem + ((1vw - 9.92px) * 12.2845)), 150px);
+  padding-right: 36px;
+  font-size: 30px;
+  line-height: 29px;
+  border-bottom-left-radius: 100px;
+}
+
+.img-navbar {
+  margin-top: 16px;
+  margin-left: 36px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.entete a {
+  color: white;
+  transition: 300ms;
+}
+
+.entete a:hover {
+  transform: translateY(-3.5px);
+  color: #366D95;
+}
+
+.entete u {
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.liens-nav {
+  display: flex;
+  gap: clamp(25px, calc(1.5625rem + ((1vw - 13.4px) * 12.069)), 95px);
+}
+
+.liens-contact {
+  display: flex;
+  gap: clamp(70px, calc(4.375rem + ((1vw - 9.92px) * 2.1552)), 90px);
+}
+
+.logo-contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-contact .margin-top-fix {
+  margin-top: 7px;
+}
+
+nav {
+  width: 70%;
+  height: 230px;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+}
+
+.mini-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  height: 50px;
+  background-color:rgba(218, 218, 218, 0.5);
+  padding-left: clamp(36px, calc(2.25rem + ((1vw - 9.92px) * 12.2845)), 150px);
+  padding-right: 36px;
+}
+
+.mini-contact a {
+  color: black;
+  font-size: 20px;
+  line-height: 29px;
+}

@@ -1,0 +1,44 @@
+[
+  {
+      "id": 1,
+      "description": " Excellent service et de la nourriture absolument délicieuse! ",
+      "nom": "David C. Lugo",
+      "evaluation": 5,
+      "image": "public/images/profil1.PNG"
+  },
+  {
+      "id": 2,
+      "description": "Pub G4 est ma destination favorite lorsque je veux recevoir des invités. Fiables et toujours une ambiance très agréable.",
+      "nom": "Florence Leclerc",
+      "evaluation": 5,
+      "image": "public/images/profil2.PNG"
+  },
+  {
+      "id": 3,
+      "description": "Même si les prix ne sont pas les plus bas, Pub G4 est une référence dans la qualité du service et de leur mets. Je recommande!",
+      "nom": "Kong Ch'in",
+      "evaluation": 4.5,
+      "image": "public/images/profil3.PNG"
+  },
+  {
+      "id": 4,
+      "description": "Woow! Superbe présentation et le meilleur fish & chips que je n’ai jamais mangé!",
+      "nom": "James Morgan",
+      "evaluation": 5,
+      "image": "public/images/profil4.PNG"
+  },
+  {
+      "id": 5,
+      "description": "Une expérience agréable et un service de qualité, dommage que ce ne soit pas plus proche!",
+      "nom": "Frank Phillips",
+      "evaluation": 4,
+      "image": "public/images/profil5.PNG"
+  },
+  {
+      "id": 6,
+      "description": "Si vous commandez à boire, demandez les conseils de Kevin! C’est un expert!",
+      "nom": "Samuel Robinson",
+      "evaluation": 5,
+      "image": "public/images/profil6.PNG"
+  }
+]

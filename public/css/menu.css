@@ -1,0 +1,96 @@
+.categorie-header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+  font-family: David Libre;
+  font-size:  clamp(40px, calc(2.5rem + ((1vw - 4.5px) * 1.3605)), 60px);
+  font-weight: 700;
+  line-height: 72px;
+} 
+
+.categorie-header-noir {
+  border-color: #101A24;
+  color: #101A24;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.carte-plat {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 432px;
+  width: 306px;
+  background: #D9D9D9;
+  border-radius: 45px 7px 45px 7px;
+  border: 4px solid white;
+  overflow: hidden;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: clamp(44px, calc(2.75rem + ((1vw - 4.5px) * 2.9252)), 87px);
+}
+
+.prix {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #101a2472;
+  backdrop-filter: blur(10px);
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+}
+
+.titre {
+  margin: 0;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  background: black;
+  padding: 10px;
+  border-top: 4px solid white;
+}
+
+.description {
+  padding-inline: 23px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #5C6574;
+}
+
+.entete-menuprincipal {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: min(577px, 80%);
+  min-height: 325px;
+  clip-path: polygon(50% 325px, 100% 185px, 100% 0, 0 0, 0 185px);
+  background-color: #366D95;
+  padding-top: 20px;
+}
+
+.entete-menuprincipal h2 {
+  font-size: 105px;
+  margin: 0;
+}
+
+.entete-menuprincipal h5 {
+  font-size: 45px;
+  margin: 0;
+}
